@@ -1,3 +1,19 @@
-body {
-  background: red;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-size: 19px ;
+    font-weight: normal ;
+    font-family: 'Roboto', sans-serif;
+
+
+    /* font: normal 16px'Roboto', sans-serif; */
+
+    /* font-family: Cambria, Cochin, Georgia,
+     Times, 'Times New Roman', serif; */
+   
 }
+    
+    .avatar {
+        width: 200px;
+
+    }
