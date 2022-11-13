@@ -9,11 +9,36 @@ body{
     /* font: normal 16px'Roboto', sans-serif; */
 
     /* font-family: Cambria, Cochin, Georgia,
-     Times, 'Times New Roman', serif; */
-   
+     Times, 'Times New Roman', serif; */     
 }
+
+    .conteiner{
+       max-width: 750px;
+    }
     
     .avatar {
         width: 200px;
+        border-radius: 28%;
+        box-shadow: 4px 4px 14px rgba(238, 13, 13, 0.25);
+    } 
 
+    .info p  {
+        color: #0e0d0d;
+        margin: 0%;
+        font-style: italic ;
+        font-weight: bold;
+        text-decoration: none;
+        text-transform: uppercase  ;
+        word-spacing: 2px;
+    
     }
+
+    .seti  {
+        color: rgb(27, 3, 3);
+        text-transform: uppercase;
+        font-family:cursive;
+        letter-spacing: 5px;
+        background: #ee0909;
+        
+    }
+
