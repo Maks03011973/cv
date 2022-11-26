@@ -12,6 +12,20 @@ body{
      Times, 'Times New Roman', serif; */     
 }
 
+    a {
+        color: black;
+        text-decoration: none;
+
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    a:active {
+        color: rgb(231, 20, 20);
+    }
+
     .conteiner{
        max-width: 750px;
     }
@@ -33,12 +47,27 @@ body{
     
     }
 
-    .seti  {
-        color: rgb(27, 3, 3);
+    /* .seti  {
+        color: rgb(10, 4, 4);
         text-transform: uppercase;
         font-family:cursive;
         letter-spacing: 5px;
-        background: #ee0909;
-        
-    }
+        background: #ffffff;
+        padding: 15px 10px 30px 50px;
+        margin: 20px;
 
+
+        border: 5px solid rgb(196, 16, 16) ;
+        border-bottom-color: rgb(22, 13, 13) ;
+        border-top-style: dotted ;  */
+    /* }
+
+.box-model > div   {
+    float: left;
+    background: #130202;
+    height: 200px;
+    border: 4px solid red;
+    width: 20%;
+    box-sizing: border-box;
+    
+} */ 
