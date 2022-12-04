@@ -71,3 +71,16 @@ body{
     box-sizing: border-box;
     
 } */ 
+ 
+.card {
+   padding: 15px 2px;
+   background: #ffffff;
+   margin-bottom: 30px;
+   
+}
+
+
+.foto {
+    padding:15px 100px  ;
+    background: rgb(255, 255, 255);
+}
