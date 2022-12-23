@@ -23,7 +23,7 @@ body{
     }
 
     a:active {
-        color: rgb(231, 20, 20);
+        color: rgb(201, 40, 40);
     }
 
     .conteiner{
@@ -36,8 +36,13 @@ body{
         box-shadow: 4px 4px 14px rgba(238, 13, 13, 0.25);
     } 
 
+    .info{
+            margin-bottom: 20px;
+    }
+
+
     .info p  {
-        color: #0e0d0d;
+        color: #110b0b;
         margin: 0%;
         font-style: italic ;
         font-weight: bold;
@@ -46,6 +51,11 @@ body{
         word-spacing: 2px;
     
     }
+
+    /* * { 
+    padding:  0;
+    margin: 0;
+    } */
 
     /* .seti  {
         color: rgb(10, 4, 4);
@@ -71,16 +81,106 @@ body{
     box-sizing: border-box;
     
 } */ 
- 
-.card {
-   padding: 15px 2px;
-   background: #ffffff;
-   margin-bottom: 30px;
-   
-}
+
+            .bg-yellow {
+                background: #e0dfd7;
+            }
+
+            .bg-green {
+                background: #dd8f8f;
+            }
+
+            .bg-red {
+                background: #2a2b4d2a;
+            }
+            
+
+            .card {
+            padding: 15px 2px;
+            
+            margin-bottom: 30px;
+            
+            }
+
+            .reklama {
+                text-align: center;
+            }
+
+            .list {
+                padding: 0px;
+                margin: 0px;
+        
+            }
+
+            .list li  {
+                color: #010102;
+                padding: 0px;
+                margin: 20px;
+                margin-bottom: 0px;  
+            }
+        
+            
+            .foto {
+                padding:15px 100px  ;
+                background: rgb(230, 224, 224);
+            }
+
+            .table {
+                width: 100% ;
+            
+            }
+
+            .table th {
+                padding-bottom: 10px;      
+            } 
+
+        .table  th:nth-child(1),
+            .table th:nth-child(3){
+            color: rgb(110, 133, 133);
+        }
+                /* .table tr:nth-child(odd) {
+                    background: rebeccapurple;
+                }
+                    */
+
+            .list-kursy {
+                padding: 10px;
+                list-style: none;
+                    /* list-style: url("foto.jpg")
+                    inside */
+            }
+
+            .list-kursy li {
+                margin-bottom: 16px;
+                padding-bottom: 5px;
+                border-bottom: 1px solid rgb(133, 117, 117); 
+            }
 
 
-.foto {
-    padding:15px 100px  ;
-    background: rgb(255, 255, 255);
-}
+        .svjazatsa-so-mnoi h2  {
+                text-align: center;
+                } 
+
+            .form-group label {
+                    display: block;
+            }    
+
+        .form-group input {
+            width: 30%;
+        }
+
+
+
+
+
+
+
+
+
+/*     
+    .drovosek {
+        color: rgb(23, 12, 145);
+    } */
+
+  
+    
